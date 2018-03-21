@@ -16,7 +16,22 @@ WARNING: I have RADEON graphic card, so it is hard to set up properly (in my mac
 Then, it all became clearer when I found this (thanks a lot George Brindeiro): 
 http://matrivian.github.io/computer%20vision/2015/04/06/openni2-2-and-nite2-2-on-ubuntu-14-04-lts.html
 
-Just skip the part about libfreenect (watch out the version) and go for the installation of OpenNI. You should have noticed that NiTE2 download is just a sentence, not a link. So my friend, go and get it here:  
+Just skip the part about libfreenect (watch out the version) and go for the installation of OpenNI. You should have noticed that NiTE2 download is just a sentence, not a link. So my friend, go and get it here on the git folder.
+
+Continue with the installation and voilá! Nice, we can track people movement.
+
+To make it work with python, I could manage to make it work with my system's python2.7 64bit. My attempts to make it work with anaconda failed.
+
+So, let's install VPython.
+
+Following the excellet post https://ubuntuforum-br.org/index.php?topic=121607.0 . Do this:
+
+sudo apt-get install libwxgtk3.0-dev
+
+sudo apt-get install virtualenv swig build-essential python-dev
+
+sudo apt-get install python-wxgtk3.0 python wxgtk3.0-dev
+
 
 
 https://github.com/BrainTech/nite2-bindings  
