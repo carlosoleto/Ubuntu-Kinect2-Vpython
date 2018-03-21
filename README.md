@@ -1,4 +1,4 @@
-# Kinect2_Biofeedback
+# Ubuntu-Kinect2-Vpython
 How to use Kinectv2 in Ubuntu 16 to do skeleton tracking and biofeedback information to the user.
 
 Well ... it is a long long long journey. I hope it can same some time from some souls out there.
