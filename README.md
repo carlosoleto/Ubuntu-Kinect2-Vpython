@@ -24,14 +24,23 @@ To make it work with python, I could manage to make it work with my system's pyt
 
 So, let's install VPython.
 
-Following the excellet post https://ubuntuforum-br.org/index.php?topic=121607.0 . Do this:
+Following the excellet post https://ubuntuforum-br.org/index.php?topic=121607.0 . Run the bash file of the git folder. 
 
-sudo apt-get install libwxgtk3.0-dev
+sudo bash InstalandoVpython.sh 
 
-sudo apt-get install virtualenv swig build-essential python-dev
+Or you could do the chmod thing.
 
-sudo apt-get install python-wxgtk3.0 python wxgtk3.0-dev
+sudo chmod +777 InstalandoVpython.sh
+./InstalandoVpython.sh 
+
+If everything worked good, found the "bounce.py" file in your computer and run it. You should see a red ball bouncing.
+
+Now, we are almost done, use this python wrapper for NiTE2 https://github.com/BrainTech/nite2-bindings.
+
+Just remember to set up the proper files path of the OpenNI2 and NiTE2 folders in the Makefile and you are ready to run
+
+make
+
+:D
 
 
-
-https://github.com/BrainTech/nite2-bindings  
