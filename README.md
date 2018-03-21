@@ -43,4 +43,7 @@ make
 
 :D
 
+Try to run some of the tests that it has in the folder.
+
+WARNING: to make it work so far I had to move a lot the folder and libraries (.so and .so0 files) from freenect, OpenNI2 and NiTE2 folders. You should have noticed that some of the tests until here failed because something was missing.
 
